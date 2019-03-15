@@ -5,6 +5,7 @@ This app is a Command Line Interface (CLI) that allows a user to purchase fake i
 First, you will need to clone the repository. 
 
 Next you will want to download node.js and npm on your computer.  Node.js is a serverside framework that allows JavaScript to be used on a server.  In this particular case, we will be using node.js to create, read, update, and delete (CRUD) data on a local server.  npm is a package manager that can easily download various packages or modules.  
+
 You will also need to know how to run the bamazon.sql code in mysql workbench to create the database after connecting to your local server.
 
 The app uses 3 npm modules, which can be downloaded by typing either of the following into your terminal:
