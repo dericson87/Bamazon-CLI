@@ -34,28 +34,28 @@ When running bamazonManager.js, the user is given 4 options to choose from: View
 
 As it states, this option will print all the products in the database and its relevant information, including ID, name, price, and quantity.
 
-![BamazonManager View](.gif)
+![BamazonManager View](/bamznManVProd.gif)
 
 
 **View Low Inventory:**
 
 View Low Inventory will print out products with a quantity of 5 or lower, and includes all the same information for each item as shown in View Products for Sale.
 
-![Bamazon Manager Low](.gif)
+![Bamazon Manager Low](/bamznManVLow.gif)
 
 
 **Add to Inventory:**
 
 Adds more quantity to a particular item. The option will prompt the user to input the ID of the item they wish to add more inventory to and the amount they wish to add. The newly updated item can be seen when the user views products again.
 
-![BamazonManager - Add Inventory](.gif)
+![BamazonManager - Add Inventory](/bamznManAdd.gif)
 
 
 **Add New Product:**
 
 Add New Product will prompt the user to input a name, department, price, and quantity of the item they wish to add. The newly updated item can be seen when the user views products again.
 
-![BamazonManager - Add Product](.gif)
+![BamazonManager - Add Product](/bamznManAddP.gif)
 
 ```
 node bamazonSupervisor.js
@@ -67,10 +67,8 @@ The user should be given two options to choose from by arrowing up or down:
 
 Should display the department ID, name, overhead costs, product sales, and net profit of each department in the database.   Product sales should increase when a transaction is made using bamazonCustomer.js.  Total profit is created by subtracting overhead cost from total product sales of each department.
 
-![Bamazon Supervisor View](.gif)
+![Bamazon Supervisor View](/bamznSuper.gif)
 
 **Create New Department:**
 
 I didn't see any clear instruction on how to do this, but I'm sure can figure it out if I spend the time.
-
-![Bamazon Supervisor New](.gif)
