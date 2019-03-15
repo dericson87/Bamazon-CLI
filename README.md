@@ -23,7 +23,7 @@ node bamazonCustomer.js
 ### Bamazon Customer
 The terminal should display a list of items from your local database, each with an ID, name, and price. The user should be prompted to input the ID and quantity of the item they wish to purchase. Once the transaction is complete, the terminal will prompt what has been purchased along with the total cost. If the user inputs an ID that is not shown or a quantity not available in current inventory, the terminal should display an error message and be prompted to try again.
 
-![BamazonCustomer](.gif)
+![BamazonCustomer](Bamazon-CLI/bamznCust.gif)
 ```
 node bamazonManager.js
 ```
