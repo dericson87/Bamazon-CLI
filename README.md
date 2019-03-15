@@ -71,4 +71,4 @@ Should display the department ID, name, overhead costs, product sales, and net p
 
 **Create New Department:**
 
-I didn't see any clear instruction on how to do this, but I'm sure can figure it out if I spend the time.
+Doesn't currently do anything.
