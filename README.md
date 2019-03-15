@@ -55,7 +55,7 @@ Adds more quantity to a particular item. The option will prompt the user to inpu
 
 Add New Product will prompt the user to input a name, department, price, and quantity of the item they wish to add. The newly updated item can be seen when the user views products again.
 
-![BamazonManager - Add Product](/bamznManAddP.gif)
+![BamazonManager - Add Product](/bamznManAddProd.gif)
 
 ```
 node bamazonSupervisor.js
