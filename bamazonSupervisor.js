@@ -27,7 +27,7 @@ function supervisorFunction(){
 		if (answers.supervisor === 'View Product Sales by Department'){
 			viewDepartments();
 		}else{
-			console.log('\nNot sure how to do this...\n');
+			console.log('\nOption to add department yet to be added.\n');
 			supervisorFunction();
 		}
 	});
