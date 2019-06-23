@@ -1,25 +1,6 @@
 # Bamazon-CLI
 This app is a Command Line Interface (CLI) that allows a user to purchase fake items from a local database and manipulate values using the command line. There are three node server files that are used to display and update entries in the MySQL database that needs to be created: bamazonCustomer.js, bamazonManager.js, and bamazonSupervisor.js. Also provided is the package.json and mysql file used to generate the database.  
 
-## To Begin
-First, you will need to clone the repository. 
-
-Next you will want to download node.js and npm on your computer.  Node.js is a serverside framework that allows JavaScript to be used on a server.  In this particular case, we will be using node.js to create, read, update, and delete (CRUD) data on a local server.  npm is a package manager that can easily download various packages or modules.  
-
-You will also need to know how to run the bamazon.sql code in mysql workbench to create the database after connecting to your local server.
-
-The app uses 3 npm modules, which can be downloaded by typing either of the following into your terminal:
-```
-npm install mysql inquirer console.table
-```
-or with the package.json file in the same directory:
-```
-npm install
-```
-Once you have successfully downloaded node.js and npm, navigate to the directory where you cloned the repository using the command line.  Once there, the following commands should run each file respectively:
-```
-node bamazonCustomer.js
-```
 ### Bamazon Customer
 The terminal should display a list of items from your local database, each with an ID, name, and price. The user should be prompted to input the ID and quantity of the item they wish to purchase. Once the transaction is complete, the terminal will prompt what has been purchased along with the total cost. If the user inputs an ID that is not shown or a quantity not available in current inventory, the terminal should display an error message and be prompted to try again.
 
